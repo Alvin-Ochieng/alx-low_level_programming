@@ -2,11 +2,11 @@
 
 /**
  * add - adds two integers and returns the result
- * @int: int to be added to int
- * @int: int to be added to int
- * Return: sum of int and int
+ * @a: int to be added to b
+ * @b: int to be added to a
+ * Return: sum of a and b
  */
-int add(int a, int b)
+int add(a, b)
 {
 	int c;
 
