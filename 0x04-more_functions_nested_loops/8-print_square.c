@@ -6,7 +6,7 @@
  * if size is 0 or less, the function should print only a new line
  * use the character # to print the square.
  */
-void print_square(int size);
+void print_square(int size)
 {
 	if (size <= 0)
 	{
