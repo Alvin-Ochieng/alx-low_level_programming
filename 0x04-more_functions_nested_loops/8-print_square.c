@@ -5,23 +5,27 @@
  * @size: the size of the square
  * if size is 0 or less, the function should print only a new line
  * use the character # to print the square.
+ * Return:void
  */
-void print_square(int size)
+
+void print_square(int n)
 {
-	if (size <= 0)
+
+	int i = 0, ii;
+
+	while (i < n && n > 0)
 	{
-		_putchar('\n');
-	} else
-	{
-		int i, j;
-		
-		for (i = 0; i < size; i++)
+		ii = 0;
+		while (ii < n)
 		{
-			for (j = 0; j < size; j++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
+			_putchar('#');
+			ii++;
 		}
+
+		_putchar('\n');
+		i++;
 	}
+	if (i == 0)
+		_putchar('\n');
+
 }
