@@ -22,5 +22,5 @@ File 102-magic.c is a function that prints a[2] = 98, followed by a new line.
 
 File 103-infinite_add.c is a function that adds two numbers.
 
-File holberton.h is the header file containing all the function prototypes.
+File main.h is the header file containing all the function prototypes.
 
